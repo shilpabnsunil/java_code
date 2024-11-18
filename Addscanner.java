@@ -1,16 +1,14 @@
-package basics;
+package programs;
 
 import java.util.Scanner;
 
-public class Addscanner {
+public class AddScanner {
 	
-public static void main(String[] args) {
+	public static void main(String[] args) {
 		
 		Scanner s1=new Scanner(System.in);
-		System.out.println("enter name");
 		String name=s1.next();
-		
+		//System.out.println(name);
 	}
-
 
 }

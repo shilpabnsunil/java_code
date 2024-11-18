@@ -4,7 +4,8 @@ public class LogicalOperators {
 	
 	static void AND_Operator() { //AND Operator
 		int age=33;
-	if(33 >=age && age==33) //both condition should be true than the result will be true
+		
+	   if(33 >=age && age==33) //both condition should be true than the result will be true
 		{//if one condition is false output will be false
 			System.out.println("True-AND Operator");
 		}else {

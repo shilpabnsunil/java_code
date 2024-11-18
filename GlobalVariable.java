@@ -8,6 +8,7 @@ public class GlobalVariable {
 	void sub() {
 		
 		int a=100;//local variable of non static method
+		System.out.println(a);
 	}
 	static void add()
 	{
@@ -17,6 +18,8 @@ public class GlobalVariable {
 	public static void main(String[] args) {
 		
 		int c=200;//local variable
+		GlobalVariable gv=new GlobalVariable();
+		gv.sub();
 		
 	}
 }

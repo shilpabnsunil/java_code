@@ -2,9 +2,9 @@ package basics;
 
 public class MethodOverloading {
 	
-	static void method1(int a) {
+	static void method1(int a) 
+	{
 		System.out.println(a);
-		
 	}
 	
 	static void method1(float b)
@@ -12,9 +12,11 @@ public class MethodOverloading {
 		System.out.println(b);
 	}
 	
-	void method1(double c) {//nonstatic method 
+	void method1(double c) 
+	{      //nonstatic method 
 		System.out.println(c);
 	}
+	
 	public static void main(String[] args) {
 		
 		method1(20);//passing parameter int value

@@ -1,7 +1,5 @@
 package basics;
-
 public class UpdateValueOfGlobalVariable {
-	
 	
 	String name="Shilpa B N";//non static global variable
 	static double salary=68685;//static global variable
@@ -23,8 +21,5 @@ public class UpdateValueOfGlobalVariable {
 		
 		GV.name="Shilpa Sunil";//updated global non static variable value
 		System.out.println(GV.name);//output After updating the Non static global variable	
-			
 	}
-	
-
 }

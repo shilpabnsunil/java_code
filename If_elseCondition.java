@@ -14,7 +14,6 @@ public class If_elseCondition {
 		}
 		else {
 			System.out.println(false);
-			
 		}
 	
 	}

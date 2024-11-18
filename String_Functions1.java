@@ -26,6 +26,7 @@ public class String_Functions1 {
 		String t=word.trim();
 		System.out.println(t);
 		
+		
 		//SubString index display
 		String ss="ShilpaSunil";
 		String sub=ss.substring(4);//from index 4 word is displaying

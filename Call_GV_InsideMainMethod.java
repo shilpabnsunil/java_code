@@ -3,8 +3,8 @@ package basics;
 public class Call_GV_InsideMainMethod {
 	
 	
-	String name="Shilpa B N";//gobal variable
-	static double salary=607876;//local variable
+	String name="Shilpa B N";//non static global variable
+	static double salary=607876;//static global  variable
 	
 	
 	public static void main(String[] args) {
